@@ -103,3 +103,6 @@ ENV/
 
 # End of https://www.gitignore.io/api/python
 *.pyc
+.DS_Store
+**/.DS_Store
+**/*.pyc
