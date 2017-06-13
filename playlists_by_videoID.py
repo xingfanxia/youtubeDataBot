@@ -72,28 +72,7 @@ if __name__ == '__main__':
 			# Structured as 
 			# {"videoID": [
 		 #        "videoTitle",
-		 #        [ //Array of playlists that include it
-		 #            "PLegvV8yC11jb-HHZQN2kbQSdZK47F2Wi4",
-		 #            "PLegvV8yC11ja5xmIvaRTj6hZ7lMeP4f6N",
-		 #            "PLqZhJtFQSRt44EPKSlVkACy8dEl7vI8-g",
-		 #            "PLJ3eEnBTDlWmLkI-vW-KMWbz21yyojMJ4",
-		 #            "PL6NCFegKoCEzcIGGt7pD7-n4dYG0737xi",
-		 #            "PLWoba7uuii59_Yu0_g-FpV610ZMG0-Lb5",
-		 #            "PLK8tajmX0uLjT8LTzxyUBpkaJQiShDJxf",
-		 #            "PLir_zeQq_1GofyNDQx7JZ4H0EA2BGEap7",
-		 #            "PLzb4x-Jqqbb7htzqfq0MWN692RT9p0oyH",
-		 #            "PLqZhJtFQSRt4C47pq01bBjBETG4Kbzlv_",
-		 #            "PLUz5ZYKGi2yrxRmOsO_zeCuTq89e2hVWl",
-		 #            "PLghrFgkzVHiTlF7xFhNqIsYkwzDRKjEuj",
-		 #            "PLSV39S4qft4oIbcpkjEai-c0Q5T3zD4uG",
-		 #            "PLlQezi7ZjIBf5q50bYoYx8Vsfy0mVmctT",
-		 #            "PLSRPVvtqCQBAIRsMfFFkcFI3sIkTW84Xv",
-		 #            "PLZE1UAUgE_q9ob4iwR_2cVoj1R9CJFawJ",
-		 #            "PL2ndDRBqT3wn3yzcXrehDRFcPtwiSmssn",
-		 #            "PL9QuDds9qoqg5_U6_kRQX0azyNOWSYatq",
-		 #            "PLWkg4t_m90-qGHt-JJPBKod6OWiNR1rf1",
-		 #            "PLXTBy-UCFrsnlL0aZRG3RoBvAMNdRLyGv",
-		 #            "PLhGOZYXl77uyWJAWuDaYu0loE51Sa4Wgh"
+		 #        [ //Array of tuples of (playlist, playlist title)
 		 #        ]
 		 #    ]}
 	print(json.dumps(diction, indent=4))
