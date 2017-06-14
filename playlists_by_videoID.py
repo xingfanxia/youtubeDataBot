@@ -21,9 +21,7 @@ def getVideoIDs(playlistId):
 		for item in data["items"]:
 			videoIDs.append(item["snippet"]["resourceId"]["videoId"])
 	except:
-		print("Unknow Error")
-		print(playlistId)
-		sys.exit(0)
+		print("playlist {ID} not found".format(ID = playlistId))
 	return videoIDs
 
 # Validate if the interested video is in that playlist
