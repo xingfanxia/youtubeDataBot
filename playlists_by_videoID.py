@@ -47,7 +47,8 @@ def extractPlaylistIDs(data):
 	return ls
 
 if __name__ == '__main__':
-	IDs_toProcess = ["SC4xMk98Pdc", "e-ORhEE9VVg", "IdneKLhsWOQ"]
+	# IDs_toProcess = ["SC4xMk98Pdc", "e-ORhEE9VVg", "IdneKLhsWOQ"]
+	IDs_toProcess = ["e-ORhEE9VVg"]
 	searchTerms = []
 	diction = dict()
 
