@@ -5,7 +5,7 @@
 # @Link    : http://xiax.tech
 # @Version : $V1$
 # run this with python3 
-import requests, json, api_key, tqdm
+import requests, json, api_key, tqdm, sys
 
 # Generate API call to search top 50 playlists by keyword
 def url_gen(kwd, maxCount):
@@ -22,6 +22,8 @@ def getVideoIDs(playlistId):
 			videoIDs.append(item["snippet"]["resourceId"]["videoId"])
 	except:
 		print("Unknow Error")
+		print(playlistId)
+		sys.exit(0)
 	return videoIDs
 
 # Validate if the interested video is in that playlist
