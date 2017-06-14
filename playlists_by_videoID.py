@@ -75,4 +75,4 @@ if __name__ == '__main__':
 		 #        [ //Array of tuples of (playlist, playlist title)
 		 #        ]
 		 #    ]}
-	print(json.dumps(diction, indent=4))
+	print(json.dumps(diction, indent=4, ensure_ascii=False))
